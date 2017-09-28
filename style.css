@@ -1,0 +1,18 @@
+fieldset#identité {
+  background-color: #2574a9
+}
+fieldset#identité legend {
+  background-color: #2574a9
+}
+fieldset#livraison {
+  background-color: #9a12b3
+}
+fieldset#livraison legend {
+  background-color: #9a12b3
+}
+fieldset#paiement {
+  background-color: #DB0A5B
+}
+fieldset#paiement legend {
+  background-color: #DB0A5B
+}

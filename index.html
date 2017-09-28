@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 7</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+    <form action="index.html" method="post">
+    <fieldset id="identité">
+      <legend>Votre identité</legend>
+    <p>
+        <label>1.Nom :</label><input type="text" name="nom" placeholder="Nom"/><br>
+        <label>2.Prénom :</label><input type="text" name="prénom" placeholder="Prénom"/><br>
+        <label>3.Adresse mail :</label><input type="email" name="adressemail" placeholder="Adresse mail"/><br>
+    </p>
+    </fieldset>
+    <fieldset id="livraison">
+    <legend>Adresse de livraison</legend>
+      <p>
+        <label>1.Adresse :</label><textarea name="adresse" rows="8" cols="40"></textarea><br>
+        <label>2.Code postal :</label><input type="text" name="Codepostal" placeholder="Code postal"/><br>
+        <label>3.Ville :</label><input type="text" name="ville" placeholder="Ville"/><br>
+      </p>
+      </fieldset>
+      <fieldset id="paiement">
+        <legend>Informations de règlement</legend>
+      <p>
+      <label>1.Type de carte bancaire :</label><br>
+        <input type="radio" name="visa" value="visa">Visa<br />
+        <input type="radio" name="mastercard" value="mastercard">Mastercard<br />
+        <label>2.Numéro de carte :</label><input type="text" name="numérodecarte" placeholder="Numéro de carte"><br>
+        <label>3.Code de sécurité :</label><input type="text" name="codesécurité" placeholder="Code de sécurité"><br>
+        <label>4.Nom du titulaire</label><input type="text" name="nomdutitulaire" placeholder="Nom du titulaire"><br>
+      </p>
+      </fieldset>
+      <input type="submit" value="J'achète !"/>
+    </form>
+  </html>
